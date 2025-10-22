@@ -1,5 +1,5 @@
 """
-Here PDF content will be extracted in contextually meaniningfull chunks without cutting off important points, and making context awful.
+Here PDF content will be extracted in contextually meaniningful chunks without cutting off important points, and making context clear.
 
 chunk_size:1000->Each chunk will have approximately 1000 characters.
 chunk_overlap:200-> Next chunk will overlap previous chunk with 200 characters, so important contenxt won't be cutoff.
