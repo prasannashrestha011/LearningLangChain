@@ -1,0 +1,1489 @@
+[
+    {
+        "label": "requests,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests.",
+        "description": "requests.",
+        "detail": "requests.",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ToolNode",
+        "importPath": "langchain.tools.tool_node",
+        "description": "langchain.tools.tool_node",
+        "isExtraImport": true,
+        "detail": "langchain.tools.tool_node",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabase",
+        "importPath": "langchain_community.utilities",
+        "description": "langchain_community.utilities",
+        "isExtraImport": true,
+        "detail": "langchain_community.utilities",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabaseToolkit",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesState",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph.state",
+        "description": "langgraph.graph.state",
+        "isExtraImport": true,
+        "detail": "langgraph.graph.state",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph.state",
+        "description": "langgraph.graph.state",
+        "isExtraImport": true,
+        "detail": "langgraph.graph.state",
+        "documentation": {}
+    },
+    {
+        "label": "ToolNode",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "create_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.tools",
+        "description": "langchain.tools",
+        "isExtraImport": true,
+        "detail": "langchain.tools",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleGenerativeAIEmbeddings",
+        "importPath": "langchain_google_genai",
+        "description": "langchain_google_genai",
+        "isExtraImport": true,
+        "detail": "langchain_google_genai",
+        "documentation": {}
+    },
+    {
+        "label": "InMemoryVectorStore",
+        "importPath": "langchain_core.vectorstores",
+        "description": "langchain_core.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_core.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "InMemoryVectorStore",
+        "importPath": "langchain_core.vectorstores",
+        "description": "langchain_core.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_core.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "InMemoryVectorStore",
+        "importPath": "langchain_core.vectorstores",
+        "description": "langchain_core.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain_core.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain_text_splitters",
+        "description": "langchain_text_splitters",
+        "isExtraImport": true,
+        "detail": "langchain_text_splitters",
+        "documentation": {}
+    },
+    {
+        "label": "WebBaseLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "PyPDFLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "WebBaseLoader",
+        "importPath": "langchain_community.document_loaders",
+        "description": "langchain_community.document_loaders",
+        "isExtraImport": true,
+        "detail": "langchain_community.document_loaders",
+        "documentation": {}
+    },
+    {
+        "label": "SoupStrainer",
+        "importPath": "bs4.filter",
+        "description": "bs4.filter",
+        "isExtraImport": true,
+        "detail": "bs4.filter",
+        "documentation": {}
+    },
+    {
+        "label": "SoupStrainer",
+        "importPath": "bs4.filter",
+        "description": "bs4.filter",
+        "isExtraImport": true,
+        "detail": "bs4.filter",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain_core.documents",
+        "description": "langchain_core.documents",
+        "isExtraImport": true,
+        "detail": "langchain_core.documents",
+        "documentation": {}
+    },
+    {
+        "label": "hub",
+        "importPath": "langchain_classic",
+        "description": "langchain_classic",
+        "isExtraImport": true,
+        "detail": "langchain_classic",
+        "documentation": {}
+    },
+    {
+        "label": "hub",
+        "importPath": "langchain_classic",
+        "description": "langchain_classic",
+        "isExtraImport": true,
+        "detail": "langchain_classic",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing ",
+        "description": "typing ",
+        "isExtraImport": true,
+        "detail": "typing ",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing ",
+        "description": "typing ",
+        "isExtraImport": true,
+        "detail": "typing ",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "all_splits",
+        "importPath": "doc_preprocessing",
+        "description": "doc_preprocessing",
+        "isExtraImport": true,
+        "detail": "doc_preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "getpass",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "getpass",
+        "description": "getpass",
+        "detail": "getpass",
+        "documentation": {}
+    },
+    {
+        "label": "InMemoryStore",
+        "importPath": "langgraph.store.memory",
+        "description": "langgraph.store.memory",
+        "isExtraImport": true,
+        "detail": "langgraph.store.memory",
+        "documentation": {}
+    },
+    {
+        "label": "retriever",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "os,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.",
+        "description": "os.",
+        "detail": "os.",
+        "documentation": {}
+    },
+    {
+        "label": "HuggingFaceEmbeddings",
+        "importPath": "langchain_huggingface",
+        "description": "langchain_huggingface",
+        "isExtraImport": true,
+        "detail": "langchain_huggingface",
+        "documentation": {}
+    },
+    {
+        "label": "PDFQAState",
+        "importPath": "state",
+        "description": "state",
+        "isExtraImport": true,
+        "detail": "state",
+        "documentation": {}
+    },
+    {
+        "label": "chain",
+        "importPath": "langchain_core.runnables",
+        "description": "langchain_core.runnables",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables",
+        "documentation": {}
+    },
+    {
+        "label": "vector_store",
+        "importPath": "vector_store",
+        "description": "vector_store",
+        "isExtraImport": true,
+        "detail": "vector_store",
+        "documentation": {}
+    },
+    {
+        "label": "all_splits",
+        "importPath": "semantic_search",
+        "description": "semantic_search",
+        "isExtraImport": true,
+        "detail": "semantic_search",
+        "documentation": {}
+    },
+    {
+        "label": "all_splits",
+        "importPath": "semantic_search",
+        "description": "semantic_search",
+        "isExtraImport": true,
+        "detail": "semantic_search",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "importPath": "model_setup",
+        "description": "model_setup",
+        "isExtraImport": true,
+        "detail": "model_setup",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "importPath": "model_setup",
+        "description": "model_setup",
+        "isExtraImport": true,
+        "detail": "model_setup",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "importPath": "embeddings",
+        "description": "embeddings",
+        "isExtraImport": true,
+        "detail": "embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "importPath": "embeddings",
+        "description": "embeddings",
+        "isExtraImport": true,
+        "detail": "embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.dw_db",
+        "description": "custom_model.sql_agent.dw_db",
+        "peekOfCode": "url = \"https://storage.googleapis.com/benchmarks-artifacts/chinook/Chinook.db\"\nlocal_path = pathlib.Path(\"Chinook.db\")\nif local_path.exists():\n    print(f\"{local_path} already exists, skipping download.\")\nelse:\n    response = requests.get(url)\n    if response.status_code == 200:\n        local_path.write_bytes(response.content)\n        print(f\"File downloaded and saved as {local_path}\")\n    else:",
+        "detail": "custom_model.sql_agent.dw_db",
+        "documentation": {}
+    },
+    {
+        "label": "local_path",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.dw_db",
+        "description": "custom_model.sql_agent.dw_db",
+        "peekOfCode": "local_path = pathlib.Path(\"Chinook.db\")\nif local_path.exists():\n    print(f\"{local_path} already exists, skipping download.\")\nelse:\n    response = requests.get(url)\n    if response.status_code == 200:\n        local_path.write_bytes(response.content)\n        print(f\"File downloaded and saved as {local_path}\")\n    else:\n        print(f\"Failed to download the file. Status code: {response.status_code}\")",
+        "detail": "custom_model.sql_agent.dw_db",
+        "documentation": {}
+    },
+    {
+        "label": "list_tables",
+        "kind": 2,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "def list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"\n    }\n    tool_call_message = AIMessage(content=\"\", tool_calls=[tool_call])\n    list_tables_tool = next(tool for tool in tools if tool.name == \"sql_db_list_tables\")",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "call_get_schema",
+        "kind": 2,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "def call_get_schema(state: MessagesState):\n    \"\"\"Call the schema retrieval tool\"\"\"\n    llm_with_tools = llm.bind_tools([get_schema_tool], tool_choice=\"any\")\n    response = llm_with_tools.invoke(state[\"messages\"])\n    return {\"messages\": [response]}\n# System prompt for query generation\ngenerate_query_system_prompt = \"\"\"\nYou are an agent designed to interact with a SQL database.\nGiven an input question, create a syntactically correct {dialect} query to run,\nthen look at the results of the query and return the answer. Unless the user",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "generate_query",
+        "kind": 2,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "def generate_query(state: MessagesState):\n    \"\"\"Generate SQL query from natural language question\"\"\"\n    system_message = {\n        \"role\": \"system\",\n        \"content\": generate_query_system_prompt\n    }\n    llm_with_tools = llm.bind_tools([run_query_tool])\n    response = llm_with_tools.invoke([system_message] + state[\"messages\"])\n    return {\"messages\": [response]}\n# System prompt for query validation",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "check_query",
+        "kind": 2,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "def check_query(state: MessagesState):\n    \"\"\"Validate and potentially correct the generated SQL query\"\"\"\n    system_message = {\n        \"role\": \"system\",\n        \"content\": check_query_system_prompt,\n    }\n    # Extract the query from the last message's tool call\n    tool_call = state[\"messages\"][-1].tool_calls[0]\n    user_message = {\"role\": \"user\", \"content\": tool_call[\"args\"][\"query\"]}\n    llm_with_tools = llm.bind_tools([run_query_tool], tool_choice=\"any\")",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "should_continue",
+        "kind": 2,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "def should_continue(state: MessagesState) -> Literal[END, \"check_query\"]:\n    \"\"\"Decide whether to continue to query validation or end\"\"\"\n    messages = state[\"messages\"]\n    last_message = messages[-1]\n    if not last_message.tool_calls:\n        return END\n    else:\n        return \"check_query\"\n# Build the agent graph\nbuilder = StateGraph(MessagesState)",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "run_agent",
+        "kind": 2,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "def run_agent(question: str):\n    \"\"\"Run the SQL agent with a natural language question\"\"\"\n    print(f\"\\n{'='*70}\")\n    print(f\"Question: {question}\")\n    print(f\"{'='*70}\\n\")\n    # Invoke the agent with the question\n    result = agent.invoke({\"messages\": [{\"role\": \"user\", \"content\": question}]})\n    # Print the final response\n    for message in result[\"messages\"]:\n        if hasattr(message, 'content') and message.content and not hasattr(message, 'tool_calls'):",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "db = SQLDatabase.from_uri(\"sqlite:///Chinook.db\")\n# Initialize Gemini LLM\nllm = init_chat_model(model=\"gemini-2.0-flash-exp\", model_provider=\"google_genai\")\n# Create SQL toolkit and extract tools\ntoolkit = SQLDatabaseToolkit(db=db, llm=llm)\ntools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "llm = init_chat_model(model=\"gemini-2.0-flash-exp\", model_provider=\"google_genai\")\n# Create SQL toolkit and extract tools\ntoolkit = SQLDatabaseToolkit(db=db, llm=llm)\ntools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "toolkit",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "toolkit = SQLDatabaseToolkit(db=db, llm=llm)\ntools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "tools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_tool",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "get_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_node",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "get_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "run_query_tool",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "run_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"\n    }",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "run_query_node",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "run_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"\n    }\n    tool_call_message = AIMessage(content=\"\", tool_calls=[tool_call])",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "generate_query_system_prompt",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "generate_query_system_prompt = \"\"\"\nYou are an agent designed to interact with a SQL database.\nGiven an input question, create a syntactically correct {dialect} query to run,\nthen look at the results of the query and return the answer. Unless the user\nspecifies a specific number of examples they wish to obtain, always limit your\nquery to at most {top_k} results.\nYou can order the results by a relevant column to return the most interesting\nexamples in the database. Never query for all the columns from a specific table,\nonly ask for the relevant columns given the question.\nDO NOT make any DML statements (INSERT, UPDATE, DELETE, DROP etc.) to the database.",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "check_query_system_prompt",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "check_query_system_prompt = \"\"\"\nYou are a SQL expert with a strong attention to detail.\nDouble check the {dialect} query for common mistakes, including:\n- Using NOT IN with NULL values\n- Using UNION when UNION ALL should have been used\n- Using BETWEEN for exclusive ranges\n- Data type mismatch in predicates\n- Properly quoting identifiers\n- Using the correct number of arguments for functions\n- Casting to the correct data type",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "builder = StateGraph(MessagesState)\n# Add nodes\nbuilder.add_node(\"list_tables\", list_tables)\nbuilder.add_node(\"call_get_schema\", call_get_schema)\nbuilder.add_node(\"get_schema\", get_schema_node)\nbuilder.add_node(\"generate_query\", generate_query)\nbuilder.add_node(\"check_query\", check_query)\nbuilder.add_node(\"run_query\", run_query_node)\n# Add edges\nbuilder.add_edge(START, \"list_tables\")",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "custom_model.sql_agent.main",
+        "description": "custom_model.sql_agent.main",
+        "peekOfCode": "agent = builder.compile()\n# Helper function to run the agent\ndef run_agent(question: str):\n    \"\"\"Run the SQL agent with a natural language question\"\"\"\n    print(f\"\\n{'='*70}\")\n    print(f\"Question: {question}\")\n    print(f\"{'='*70}\\n\")\n    # Invoke the agent with the question\n    result = agent.invoke({\"messages\": [{\"role\": \"user\", \"content\": question}]})\n    # Print the final response",
+        "detail": "custom_model.sql_agent.main",
+        "documentation": {}
+    },
+    {
+        "label": "get_weather",
+        "kind": 2,
+        "importPath": "custom_model.agent",
+        "description": "custom_model.agent",
+        "peekOfCode": "def get_weather(city: str) -> str:\n    \"\"\"Get current weather for a city.\n    Args:\n        city: Name of the city\n    \"\"\"\n    try:\n        # Using wttr.in - a free weather service, no API key needed!\n        response = requests.get(f\"https://wttr.in/{city}?format=%C+%t+%h\", timeout=5)\n        if response.status_code == 200:\n            return f\"Weather in {city}: {response.text}\"",
+        "detail": "custom_model.agent",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "custom_model.agent",
+        "description": "custom_model.agent",
+        "peekOfCode": "llm = init_chat_model(\n    \"google_genai:gemini-2.0-flash-exp\",\n    temperature=0\n)\n# Test Tool 1: Weather (Real API)\n@tool\ndef get_weather(city: str) -> str:\n    \"\"\"Get current weather for a city.\n    Args:\n        city: Name of the city",
+        "detail": "custom_model.agent",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "custom_model.agent",
+        "description": "custom_model.agent",
+        "peekOfCode": "agent = create_agent(\n    model=llm,\n    tools=[\n        get_weather,\n    ],\n    system_prompt=\"\"\"You are a helpful AI assistant with access to real-world tools.\nAvailable tools:\n- Weather information for any city\n- Web search for current information\n- Mathematical calculations",
+        "detail": "custom_model.agent",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "custom_model.agent",
+        "description": "custom_model.agent",
+        "peekOfCode": "response = agent.invoke({\n    \"messages\": [{\"role\": \"user\", \"content\": \"What's the weather like in Bhaktapur?\"}]\n})\nprint(response[\"messages\"][-1].content)",
+        "detail": "custom_model.agent",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "kind": 6,
+        "importPath": "custom_model.model",
+        "description": "custom_model.model",
+        "peekOfCode": "class State(TypedDict):\n    question:str \n    context:List[Document]\n    answer:str \ndef retriver(state:State):\n    context=vector_store.similarity_search(state['question'])\n    return {\"context\":context}\ndef generator(state:State):\n    doc_content=\"\\n\\n\".join(doc.page_content for doc in state['context'])\n    messages=prompt.invoke({\"question\":state['question'],\"context\":doc_content})",
+        "detail": "custom_model.model",
+        "documentation": {}
+    },
+    {
+        "label": "retriver",
+        "kind": 2,
+        "importPath": "custom_model.model",
+        "description": "custom_model.model",
+        "peekOfCode": "def retriver(state:State):\n    context=vector_store.similarity_search(state['question'])\n    return {\"context\":context}\ndef generator(state:State):\n    doc_content=\"\\n\\n\".join(doc.page_content for doc in state['context'])\n    messages=prompt.invoke({\"question\":state['question'],\"context\":doc_content})\n    response=model.invoke(messages)\n    return {\"answer\":response.content}\ngraph_builder=StateGraph(State).add_sequence([retriver,generator])\ngraph_builder.add_edge(START,\"retriver\")",
+        "detail": "custom_model.model",
+        "documentation": {}
+    },
+    {
+        "label": "generator",
+        "kind": 2,
+        "importPath": "custom_model.model",
+        "description": "custom_model.model",
+        "peekOfCode": "def generator(state:State):\n    doc_content=\"\\n\\n\".join(doc.page_content for doc in state['context'])\n    messages=prompt.invoke({\"question\":state['question'],\"context\":doc_content})\n    response=model.invoke(messages)\n    return {\"answer\":response.content}\ngraph_builder=StateGraph(State).add_sequence([retriver,generator])\ngraph_builder.add_edge(START,\"retriver\")\ngraph=graph_builder.compile()\nfor step in graph.stream(\n    {\"question\": \"What is Self Reflection?\"}, stream_mode=\"updates\"",
+        "detail": "custom_model.model",
+        "documentation": {}
+    },
+    {
+        "label": "EmailClassification",
+        "kind": 6,
+        "importPath": "email_agent.state",
+        "description": "email_agent.state",
+        "peekOfCode": "class EmailClassification(TypedDict):\n    intent:Literal[\"question\",\"bug\",\"billing\",\"feature\",\"complex\"]\n    urgency:Literal[\"low\",\"mid\",\"high\"]\n    topic:str \n    summary:str\nclass EmailAgentState(TypedDict):\n    email_content:str \n    sender_email:str \n    email_id:str \n    classification:EmailClassification | None ",
+        "detail": "email_agent.state",
+        "documentation": {}
+    },
+    {
+        "label": "EmailAgentState",
+        "kind": 6,
+        "importPath": "email_agent.state",
+        "description": "email_agent.state",
+        "peekOfCode": "class EmailAgentState(TypedDict):\n    email_content:str \n    sender_email:str \n    email_id:str \n    classification:EmailClassification | None \n    search_results:list[str] | None \n    customer_history:list[str] | None",
+        "detail": "email_agent.state",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "sql_agent.sql_agent",
+        "description": "sql_agent.sql_agent",
+        "peekOfCode": "model = init_chat_model(\n    model=\"nvidia/nemotron-nano-9b-v2:free\",\n    model_provider=\"openai\",       \n    base_url=\"https://openrouter.ai/api/v1\"  \n)\nprompt = \"What is the use of LangChain?\"\nresponse = model.invoke([HumanMessage(content=prompt)])\nprint(response.content)",
+        "detail": "sql_agent.sql_agent",
+        "documentation": {}
+    },
+    {
+        "label": "prompt",
+        "kind": 5,
+        "importPath": "sql_agent.sql_agent",
+        "description": "sql_agent.sql_agent",
+        "peekOfCode": "prompt = \"What is the use of LangChain?\"\nresponse = model.invoke([HumanMessage(content=prompt)])\nprint(response.content)",
+        "detail": "sql_agent.sql_agent",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "sql_agent.sql_agent",
+        "description": "sql_agent.sql_agent",
+        "peekOfCode": "response = model.invoke([HumanMessage(content=prompt)])\nprint(response.content)",
+        "detail": "sql_agent.sql_agent",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "state.llm",
+        "description": "state.llm",
+        "peekOfCode": "llm = init_chat_model(\"gemini-2.5-flash\", model_provider=\"google_genai\")",
+        "detail": "state.llm",
+        "documentation": {}
+    },
+    {
+        "label": "ChatState",
+        "kind": 6,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "class ChatState(TypedDict):\n    user_input: str\n    context: List[Document]\n    last_response: str\n# Nodes\ndef add_context(state: ChatState):\n    context = retriever.invoke(state[\"user_input\"])\n    return {\"context\": context}\ndef answer_node(state: ChatState):\n    global message_counter",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "add_context",
+        "kind": 2,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "def add_context(state: ChatState):\n    context = retriever.invoke(state[\"user_input\"])\n    return {\"context\": context}\ndef answer_node(state: ChatState):\n    global message_counter\n    # Format document context\n    doc_context = \"\\n\\n\".join([doc.page_content for doc in state[\"context\"]])\n    # previous conversations\n    try:\n        memories = store.search(namespace, query=state[\"user_input\"], limit=5)",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "answer_node",
+        "kind": 2,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "def answer_node(state: ChatState):\n    global message_counter\n    # Format document context\n    doc_context = \"\\n\\n\".join([doc.page_content for doc in state[\"context\"]])\n    # previous conversations\n    try:\n        memories = store.search(namespace, query=state[\"user_input\"], limit=5)\n        memory_text = \"\\n\".join([\n            f\"Previous Q: {m.value.get('content', '')}\\nA: {m.value.get('response', '')}\" \n            for m in memories",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "llm = init_chat_model(\n    \"gemini-2.5-flash\",\n    model_provider=\"google_genai\",\n    api_key=os.environ[\"GOOGLE_API_KEY\"]\n)\n# Prompt template\nprompt_template = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are an AI assistant. Read the context from PDF and answer the query. If unknown, say so.\"),\n    (\"user\", \"Context: {context}\\n\\nQuestion: {query}\")\n])",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "prompt_template",
+        "kind": 5,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "prompt_template = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are an AI assistant. Read the context from PDF and answer the query. If unknown, say so.\"),\n    (\"user\", \"Context: {context}\\n\\nQuestion: {query}\")\n])\n# Simple in-memory store\nstore = InMemoryStore()\nnamespace = (\"user-123\", \"chat\")\n# Message counter\nmessage_counter = 0\n# Chat state",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "store",
+        "kind": 5,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "store = InMemoryStore()\nnamespace = (\"user-123\", \"chat\")\n# Message counter\nmessage_counter = 0\n# Chat state\nclass ChatState(TypedDict):\n    user_input: str\n    context: List[Document]\n    last_response: str\n# Nodes",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "namespace",
+        "kind": 5,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "namespace = (\"user-123\", \"chat\")\n# Message counter\nmessage_counter = 0\n# Chat state\nclass ChatState(TypedDict):\n    user_input: str\n    context: List[Document]\n    last_response: str\n# Nodes\ndef add_context(state: ChatState):",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "message_counter",
+        "kind": 5,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "message_counter = 0\n# Chat state\nclass ChatState(TypedDict):\n    user_input: str\n    context: List[Document]\n    last_response: str\n# Nodes\ndef add_context(state: ChatState):\n    context = retriever.invoke(state[\"user_input\"])\n    return {\"context\": context}",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "state.main",
+        "description": "state.main",
+        "peekOfCode": "graph = (\n    StateGraph(ChatState)\n    .add_node(\"add_context\", add_context)\n    .add_node(\"answer_node\", answer_node)\n    .add_edge(START, \"add_context\")\n    .add_edge(\"add_context\", \"answer_node\")\n    .add_edge(\"answer_node\", END)\n    .compile()\n)\nprint(\"Chat started! Type 'exit' to quit.\\n\")",
+        "detail": "state.main",
+        "documentation": {}
+    },
+    {
+        "label": "load_split_pdfs",
+        "kind": 2,
+        "importPath": "workflow.nodes",
+        "description": "workflow.nodes",
+        "peekOfCode": "def load_split_pdfs(state:PDFQAState)->PDFQAState: \n    loader=PyPDFLoader(\"../assets/UNIT-1.pdf\")\n    doc=loader.load()\n    text_splitters=RecursiveCharacterTextSplitter(chunk_size=500,chunk_overlap=50)\n    all_splits=text_splitters.split_documents(doc)\n    state[\"pdf_chunks\"]=all_splits\n    return state\ndef embed_doc(state:PDFQAState)->PDFQAState:\n    embeddings=HuggingFaceEmbeddings(model_name=\"intfloat/multilingual-e5-small\")\n    store=Chroma(embedding_function=embeddings,collection_name=\"workflow_db\",persist_directory=\"./workflow_db\")",
+        "detail": "workflow.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "embed_doc",
+        "kind": 2,
+        "importPath": "workflow.nodes",
+        "description": "workflow.nodes",
+        "peekOfCode": "def embed_doc(state:PDFQAState)->PDFQAState:\n    embeddings=HuggingFaceEmbeddings(model_name=\"intfloat/multilingual-e5-small\")\n    store=Chroma(embedding_function=embeddings,collection_name=\"workflow_db\",persist_directory=\"./workflow_db\")\n    if state[\"pdf_chunks\"]:\n        state[\"vector_db\"]=store.from_documents(state[\"pdf_chunks\"],embeddings)\n    return state\ndef retrieve_chunks(state:PDFQAState)->PDFQAState:\n    store=state[\"vector_db\"]\n    if store:\n        similar_chunks=store.similarity_search(state[\"questions\"])",
+        "detail": "workflow.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "retrieve_chunks",
+        "kind": 2,
+        "importPath": "workflow.nodes",
+        "description": "workflow.nodes",
+        "peekOfCode": "def retrieve_chunks(state:PDFQAState)->PDFQAState:\n    store=state[\"vector_db\"]\n    if store:\n        similar_chunks=store.similarity_search(state[\"questions\"])\n    state[\"relevant_chunks\"]=similar_chunks\n    return state\ndef prepare_answer(state:PDFQAState)->PDFQAState:\n    llm=init_chat_model(model=\"llama-3.3-70B-versatile\",model_provider=\"groq\")\n    if state[\"relevant_chunks\"]:\n        context=\"\\n\\n\".join(doc.page_content for doc in state[\"relevant_chunks\"])",
+        "detail": "workflow.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "prepare_answer",
+        "kind": 2,
+        "importPath": "workflow.nodes",
+        "description": "workflow.nodes",
+        "peekOfCode": "def prepare_answer(state:PDFQAState)->PDFQAState:\n    llm=init_chat_model(model=\"llama-3.3-70B-versatile\",model_provider=\"groq\")\n    if state[\"relevant_chunks\"]:\n        context=\"\\n\\n\".join(doc.page_content for doc in state[\"relevant_chunks\"])\n    prompt=f\"Answer the question using the context:{context},{state[\"questions\"]}\"\n    response=llm.invoke([HumanMessage(content=prompt)])\n    state[\"answer\"]=response\n    return state\ngraphbuilder=StateGraph(PDFQAState).add_sequence([load_split_pdfs,embed_doc,retrieve_chunks,prepare_answer])\ngraphbuilder.add_edge(START,\"load_split_pdfs\")",
+        "detail": "workflow.nodes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFQAState",
+        "kind": 6,
+        "importPath": "workflow.state",
+        "description": "workflow.state",
+        "peekOfCode": "class PDFQAState(TypedDict):\n    questions:str \n    pdf_chunks:list[Document] | None \n    vector_db:Chroma | None\n    relevant_chunks:list[Document] | None\n    answer:AIMessage | None",
+        "detail": "workflow.state",
+        "documentation": {}
+    },
+    {
+        "label": "retriver",
+        "kind": 2,
+        "importPath": "custom_runnable",
+        "description": "custom_runnable",
+        "peekOfCode": "def retriver(query:str):\n    return vector_store.similarity_search_with_score(query,k=1)\nresponse=retriver.batch(\n        [\"Advantage and Disadvantage of C programming language\",\n         \"Why C programming is used\",\n         \"Difference between Top down and Bottom up approach\"]\n        ) \nprint(\"=\"*20)\nprint(response)\nprint(\"=\"*20)",
+        "detail": "custom_runnable",
+        "documentation": {}
+    },
+    {
+        "label": "embeddings",
+        "kind": 5,
+        "importPath": "embeddings",
+        "description": "embeddings",
+        "peekOfCode": "embeddings = GoogleGenerativeAIEmbeddings(model=\"gemini-embedding-001\")\nvector_1=embeddings.embed_query(all_splits[0].page_content)\nvector_2=embeddings.embed_query(all_splits[1].page_content)\nprint(vector_1[:0])",
+        "detail": "embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "model_setup",
+        "description": "model_setup",
+        "peekOfCode": "model = init_chat_model(\"gemini-2.5-flash\", model_provider=\"google_genai\")",
+        "detail": "model_setup",
+        "documentation": {}
+    },
+    {
+        "label": "State",
+        "kind": 6,
+        "importPath": "simple_agent",
+        "description": "simple_agent",
+        "peekOfCode": "class State(TypedDict):\n    question:str \n    context:List[Document]\n    answer:str\n\"\"\"Nodes\"\"\"\ndef retrive(state:State):\n    retrived_docs=vector_store.similarity_search(state['question'])\n    return {\"context\":retrived_docs}\ndef generate(state:State):\n    docs_content=\"\\n\\n\".join(doc.page_content for doc in state['context'])",
+        "detail": "simple_agent",
+        "documentation": {}
+    },
+    {
+        "label": "retrive",
+        "kind": 2,
+        "importPath": "simple_agent",
+        "description": "simple_agent",
+        "peekOfCode": "def retrive(state:State):\n    retrived_docs=vector_store.similarity_search(state['question'])\n    return {\"context\":retrived_docs}\ndef generate(state:State):\n    docs_content=\"\\n\\n\".join(doc.page_content for doc in state['context'])\n    messages=prompt.invoke({\"question\":state['question'],\"context\":docs_content})\n    response=model.invoke(messages)\n    return {\"answer\":response} \n\"\"\"Control work flow\"\"\" \ngraph_builder=StateGraph(State).add_sequence([retrive,generate])",
+        "detail": "simple_agent",
+        "documentation": {}
+    },
+    {
+        "label": "generate",
+        "kind": 2,
+        "importPath": "simple_agent",
+        "description": "simple_agent",
+        "peekOfCode": "def generate(state:State):\n    docs_content=\"\\n\\n\".join(doc.page_content for doc in state['context'])\n    messages=prompt.invoke({\"question\":state['question'],\"context\":docs_content})\n    response=model.invoke(messages)\n    return {\"answer\":response} \n\"\"\"Control work flow\"\"\" \ngraph_builder=StateGraph(State).add_sequence([retrive,generate])\ngraph_builder.add_edge(START,\"retrive\")\ngraph=graph_builder.compile()\nfor step in graph.stream(",
+        "detail": "simple_agent",
+        "documentation": {}
+    },
+    {
+        "label": "ChatState",
+        "kind": 6,
+        "importPath": "state",
+        "description": "state",
+        "peekOfCode": "class ChatState(BaseModel):\n    user_input:str \n    context:List[Document]\n    last_response:Optional[str]\ndef add_context(state:ChatState):\n    state.context.append(new_context)\n    return state.model_dump()\ndef answer_node(state:ChatState):\n    state.last_response=state.last_response\n    return state.model_dump()",
+        "detail": "state",
+        "documentation": {}
+    },
+    {
+        "label": "add_context",
+        "kind": 2,
+        "importPath": "state",
+        "description": "state",
+        "peekOfCode": "def add_context(state:ChatState):\n    state.context.append(new_context)\n    return state.model_dump()\ndef answer_node(state:ChatState):\n    state.last_response=state.last_response\n    return state.model_dump()\ngraph=(\n        StateGraph(ChatState).add_node(\"add_context\",add_context).add_node(\"answer\",answer_node)\n        )",
+        "detail": "state",
+        "documentation": {}
+    },
+    {
+        "label": "answer_node",
+        "kind": 2,
+        "importPath": "state",
+        "description": "state",
+        "peekOfCode": "def answer_node(state:ChatState):\n    state.last_response=state.last_response\n    return state.model_dump()\ngraph=(\n        StateGraph(ChatState).add_node(\"add_context\",add_context).add_node(\"answer\",answer_node)\n        )",
+        "detail": "state",
+        "documentation": {}
+    }
+]

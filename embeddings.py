@@ -1,4 +1,4 @@
-"""
+    """
 Embeddings pdf content into vectors which can be used for semantic search when using vector store
 
 The characters are transformed into array of numeric values

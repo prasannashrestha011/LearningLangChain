@@ -1,10 +1,9 @@
-from langchain_community.embeddings import HuggingFaceBgeEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import HumanMessage
 from state import PDFQAState
 from langchain_community.document_loaders import PyPDFLoader 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
 from langgraph.graph import StateGraph,START,END
@@ -22,7 +21,7 @@ def load_split_pdfs(state:PDFQAState)->PDFQAState:
 
 
 def embed_doc(state:PDFQAState)->PDFQAState:
-    embeddings=HuggingFaceBgeEmbeddings(model_name="intfloat/multilingual-e5-small")
+    embeddings=HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-small")
     store=Chroma(embedding_function=embeddings,collection_name="workflow_db",persist_directory="./workflow_db")
     if state["pdf_chunks"]:
         state["vector_db"]=store.from_documents(state["pdf_chunks"],embeddings)
@@ -51,6 +50,7 @@ graphbuilder.add_edge("prepare_answer",END)
 graph=graphbuilder.compile()
 
 while True:
+    print("="*99)
     input:PDFQAState={
             "answer":None,
             "relevant_chunks":None,
@@ -62,3 +62,4 @@ while True:
         break
     response=graph.invoke(input)
     print("AI: ",response["answer"].content)
+    print("="*99)

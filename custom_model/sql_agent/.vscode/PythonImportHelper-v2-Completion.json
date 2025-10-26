@@ -1,0 +1,287 @@
+[
+    {
+        "label": "requests,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests.",
+        "description": "requests.",
+        "detail": "requests.",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "init_chat_model",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ToolNode",
+        "importPath": "langchain.tools.tool_node",
+        "description": "langchain.tools.tool_node",
+        "isExtraImport": true,
+        "detail": "langchain.tools.tool_node",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabase",
+        "importPath": "langchain_community.utilities",
+        "description": "langchain_community.utilities",
+        "isExtraImport": true,
+        "detail": "langchain_community.utilities",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabaseToolkit",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesState",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph.state",
+        "description": "langgraph.graph.state",
+        "isExtraImport": true,
+        "detail": "langgraph.graph.state",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph.state",
+        "description": "langgraph.graph.state",
+        "isExtraImport": true,
+        "detail": "langgraph.graph.state",
+        "documentation": {}
+    },
+    {
+        "label": "ToolNode",
+        "importPath": "langgraph.prebuilt",
+        "description": "langgraph.prebuilt",
+        "isExtraImport": true,
+        "detail": "langgraph.prebuilt",
+        "documentation": {}
+    },
+    {
+        "label": "url",
+        "kind": 5,
+        "importPath": "dw_db",
+        "description": "dw_db",
+        "peekOfCode": "url = \"https://storage.googleapis.com/benchmarks-artifacts/chinook/Chinook.db\"\nlocal_path = pathlib.Path(\"Chinook.db\")\nif local_path.exists():\n    print(f\"{local_path} already exists, skipping download.\")\nelse:\n    response = requests.get(url)\n    if response.status_code == 200:\n        local_path.write_bytes(response.content)\n        print(f\"File downloaded and saved as {local_path}\")\n    else:",
+        "detail": "dw_db",
+        "documentation": {}
+    },
+    {
+        "label": "local_path",
+        "kind": 5,
+        "importPath": "dw_db",
+        "description": "dw_db",
+        "peekOfCode": "local_path = pathlib.Path(\"Chinook.db\")\nif local_path.exists():\n    print(f\"{local_path} already exists, skipping download.\")\nelse:\n    response = requests.get(url)\n    if response.status_code == 200:\n        local_path.write_bytes(response.content)\n        print(f\"File downloaded and saved as {local_path}\")\n    else:\n        print(f\"Failed to download the file. Status code: {response.status_code}\")",
+        "detail": "dw_db",
+        "documentation": {}
+    },
+    {
+        "label": "list_tables",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"\n    }\n    tool_call_message = AIMessage(content=\"\", tool_calls=[tool_call])\n    list_tables_tool = next(tool for tool in tools if tool.name == \"sql_db_list_tables\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "call_get_schema",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def call_get_schema(state: MessagesState):\n    \"\"\"Call the schema retrieval tool\"\"\"\n    llm_with_tools = llm.bind_tools([get_schema_tool], tool_choice=\"any\")\n    response = llm_with_tools.invoke(state[\"messages\"])\n    return {\"messages\": [response]}\n# System prompt for query generation\ngenerate_query_system_prompt = \"\"\"\nYou are an agent designed to interact with a SQL database.\nGiven an input question, create a syntactically correct {dialect} query to run,\nthen look at the results of the query and return the answer. Unless the user",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "generate_query",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def generate_query(state: MessagesState):\n    \"\"\"Generate SQL query from natural language question\"\"\"\n    system_message = {\n        \"role\": \"system\",\n        \"content\": generate_query_system_prompt\n    }\n    llm_with_tools = llm.bind_tools([run_query_tool])\n    response = llm_with_tools.invoke([system_message] + state[\"messages\"])\n    return {\"messages\": [response]}\n# System prompt for query validation",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "check_query",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def check_query(state: MessagesState):\n    \"\"\"Validate and potentially correct the generated SQL query\"\"\"\n    system_message = {\n        \"role\": \"system\",\n        \"content\": check_query_system_prompt,\n    }\n    # Extract the query from the last message's tool call\n    tool_call = state[\"messages\"][-1].tool_calls[0]\n    user_message = {\"role\": \"user\", \"content\": tool_call[\"args\"][\"query\"]}\n    llm_with_tools = llm.bind_tools([run_query_tool], tool_choice=\"any\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "should_continue",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def should_continue(state: MessagesState) -> Literal[END, \"check_query\"]:\n    \"\"\"Decide whether to continue to query validation or end\"\"\"\n    messages = state[\"messages\"]\n    last_message = messages[-1]\n    if not last_message.tool_calls:\n        return END\n    else:\n        return \"check_query\"\n# Build the agent graph\nbuilder = StateGraph(MessagesState)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "run_agent",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def run_agent(question: str):\n    \"\"\"Run the SQL agent with a natural language question\"\"\"\n    print(f\"\\n{'='*70}\")\n    print(f\"Question: {question}\")\n    print(f\"{'='*70}\\n\")\n    # Invoke the agent with the question\n    result = agent.invoke({\"messages\": [{\"role\": \"user\", \"content\": question}]})\n    # Print the final response\n    for message in result[\"messages\"]:\n        if hasattr(message, 'content') and message.content and not hasattr(message, 'tool_calls'):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "db = SQLDatabase.from_uri(\"sqlite:///Chinook.db\")\n# Initialize Gemini LLM\nllm = init_chat_model(model=\"gemini-2.0-flash-exp\", model_provider=\"google_genai\")\n# Create SQL toolkit and extract tools\ntoolkit = SQLDatabaseToolkit(db=db, llm=llm)\ntools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "llm = init_chat_model(model=\"gemini-2.0-flash-exp\", model_provider=\"google_genai\")\n# Create SQL toolkit and extract tools\ntoolkit = SQLDatabaseToolkit(db=db, llm=llm)\ntools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "toolkit",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "toolkit = SQLDatabaseToolkit(db=db, llm=llm)\ntools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "tools",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "tools = toolkit.get_tools()\n# Extract specific tools\nget_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_tool",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "get_schema_tool = next(tool for tool in tools if tool.name == \"sql_db_schema\")\nget_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "get_schema_node",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "get_schema_node = _ToolNode([get_schema_tool], name=\"get_schema\")\nrun_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "run_query_tool",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "run_query_tool = next(tool for tool in tools if tool.name == \"sql_db_query\")\nrun_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"\n    }",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "run_query_node",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "run_query_node = _ToolNode([run_query_tool], name=\"run_query\")\ndef list_tables(state: MessagesState):\n    \"\"\"List all available tables in the database\"\"\"\n    tool_call = {\n        \"name\": \"sql_db_list_tables\",\n        \"args\": {},\n        \"id\": \"list_tables_call\",\n        \"type\": \"tool_call\"\n    }\n    tool_call_message = AIMessage(content=\"\", tool_calls=[tool_call])",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "generate_query_system_prompt",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "generate_query_system_prompt = \"\"\"\nYou are an agent designed to interact with a SQL database.\nGiven an input question, create a syntactically correct {dialect} query to run,\nthen look at the results of the query and return the answer. Unless the user\nspecifies a specific number of examples they wish to obtain, always limit your\nquery to at most {top_k} results.\nYou can order the results by a relevant column to return the most interesting\nexamples in the database. Never query for all the columns from a specific table,\nonly ask for the relevant columns given the question.\nDO NOT make any DML statements (INSERT, UPDATE, DELETE, DROP etc.) to the database.",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "check_query_system_prompt",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "check_query_system_prompt = \"\"\"\nYou are a SQL expert with a strong attention to detail.\nDouble check the {dialect} query for common mistakes, including:\n- Using NOT IN with NULL values\n- Using UNION when UNION ALL should have been used\n- Using BETWEEN for exclusive ranges\n- Data type mismatch in predicates\n- Properly quoting identifiers\n- Using the correct number of arguments for functions\n- Casting to the correct data type",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "builder = StateGraph(MessagesState)\n# Add nodes\nbuilder.add_node(\"list_tables\", list_tables)\nbuilder.add_node(\"call_get_schema\", call_get_schema)\nbuilder.add_node(\"get_schema\", get_schema_node)\nbuilder.add_node(\"generate_query\", generate_query)\nbuilder.add_node(\"check_query\", check_query)\nbuilder.add_node(\"run_query\", run_query_node)\n# Add edges\nbuilder.add_edge(START, \"list_tables\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "agent = builder.compile()\n# Helper function to run the agent\ndef run_agent(question: str):\n    \"\"\"Run the SQL agent with a natural language question\"\"\"\n    print(f\"\\n{'='*70}\")\n    print(f\"Question: {question}\")\n    print(f\"{'='*70}\\n\")\n    # Invoke the agent with the question\n    result = agent.invoke({\"messages\": [{\"role\": \"user\", \"content\": question}]})\n    # Print the final response",
+        "detail": "main",
+        "documentation": {}
+    }
+]
