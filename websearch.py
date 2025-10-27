@@ -76,7 +76,6 @@ workflow.add_conditional_edges(
     "agent", should_continue, {"tools": "tools", "end": END}  # Use string "end"
 )
 workflow.add_edge("tools", "agent")
-# REMOVE: workflow.add_edge("agent", END)  # This conflicts with conditional_edges!
 
 app = workflow.compile()
 
@@ -89,7 +88,6 @@ while True:
     messages.append(HumanMessage(content=query))
     response = app.invoke({"messages": messages})
 
-    # Update messages with the full response
     messages = response["messages"]
 
     ai_msg = messages[-1]
